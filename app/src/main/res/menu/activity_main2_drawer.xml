@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_clubs"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Clubs" />
+
+        <item
+            android:id="@+id/post_upload"
+            android:icon="@drawable/ic_add_black_24dp"
+            android:title="Post"/>
+        <item
+            android:id="@+id/deletePosts"
+            android:icon="@drawable/ic_delete_black_24dp"
+            android:title="Delete Posts"
+        />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="About Us"/>
+        </menu>
+    </item>
+</menu>
